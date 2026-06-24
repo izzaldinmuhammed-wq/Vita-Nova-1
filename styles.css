@@ -116,7 +116,21 @@ body[data-lang="ar"] .eyebrow {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  -webkit-text-fill-color: transparent;
   animation: shimmer 6s linear infinite;
+  padding-bottom: 0.05em;
+}
+
+/* Arabic text has tall descenders (kaf, ra, alef, etc.) that get clipped
+   by gradient text masking. Use a solid gold color instead. */
+body[data-lang="ar"] .accent {
+  background: none;
+  -webkit-background-clip: initial;
+  background-clip: initial;
+  color: var(--gold-deep);
+  -webkit-text-fill-color: var(--gold-deep);
+  animation: none;
+  padding-bottom: 0;
 }
 
 @keyframes shimmer {
