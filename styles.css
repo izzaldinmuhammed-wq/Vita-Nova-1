@@ -712,7 +712,6 @@ body[data-lang="ar"] .footer-grid h5 { letter-spacing: 0; text-transform: none; 
 
 /* ---------- RTL ---------- */
 html[dir="rtl"] .hero::before { transform: scaleX(-1); }
-html[dir="rtl"] .accent { background: linear-gradient(120deg, var(--gold) 0%, var(--gold-soft) 50%, var(--gold) 100%); }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 960px) {
