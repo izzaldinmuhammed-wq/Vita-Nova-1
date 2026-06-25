@@ -826,6 +826,16 @@ body[data-theme="dark"] .site-header {
   background: rgba(10, 10, 10, 0.85);
   border-bottom-color: var(--line);
 }
+body[data-theme="dark"] .hero {
+  background:
+    radial-gradient(900px 500px at 90% -10%, var(--gold-tint), transparent 60%),
+    radial-gradient(900px 500px at 0% 20%, rgba(212,175,55,0.04), transparent 60%),
+    linear-gradient(180deg, #0a0a0a 0%, #141414 100%);
+}
+body[data-theme="dark"] .hero::before {
+  background-image: linear-gradient(to right, rgba(212,175,55,0.05) 1px, transparent 1px);
+}
+body[data-theme="dark"] .sc-meta { color: var(--muted); }
 body[data-theme="dark"] .btn-ghost { background: var(--surface); color: var(--ink); }
 body[data-theme="dark"] .card,
 body[data-theme="dark"] .event-row,
