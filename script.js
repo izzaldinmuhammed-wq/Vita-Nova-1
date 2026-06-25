@@ -10,6 +10,8 @@ const I18N = {
     "nav.why": "Why us",
     "nav.story": "Story",
     "nav.faq": "FAQ",
+    "nav.timeline": "Timeline",
+    "nav.calc": "Estimate",
     "nav.quote": "Get a quote",
     "lang.label": "العربية",
 
@@ -90,6 +92,70 @@ const I18N = {
     "faq.q7.d": "<p>You receive a full debrief within a week: photos, video highlights, attendance and spend reports, plus a short debrief call so next year is even better.</p>",
     "faq.q8.t": "Can we see a sample timeline first?",
     "faq.q8.d": "<p>Of course. After our first call we'll send a sample run-of-show and budget for the kind of event you have in mind — no obligation, yours to keep.</p>",
+
+    "timeline.eyebrow": "From kick-off to curtain up",
+    "timeline.title": "What an event timeline actually looks like.",
+    "timeline.lede": "A typical Vita Nova flagship event runs over twelve weeks. Here's exactly what we're doing at every stage so you're never wondering \"what's happening now?\".",
+    "tl1.t": "12 weeks out — brief & budget",
+    "tl1.d": "Discovery call, venue walk-through, theme brainstorm. You sign off on a transparent budget and the high-level creative direction.",
+    "tl2.t": "8 weeks out — suppliers & contracts",
+    "tl2.d": "Caterer, AV, photographer, marquee, transport, security — all contracted. Permits filed with the relevant UAE authorities.",
+    "tl3.t": "4 weeks out — comms & RSVPs",
+    "tl3.d": "Invitations go out, parent comms land in inboxes, ticketing opens, sponsors confirmed, run-of-show drafted.",
+    "tl4.t": "1 week out — dress rehearsal",
+    "tl4.d": "Full walk-through with the school team. Final headcount. Spare-plan briefed. Coffee for everyone.",
+    "tl5.t": "Event day — showtime",
+    "tl5.d": "Our team arrives at sunrise, runs the rehearsal, the show, and the wrap. You enjoy the day. We handle the rest.",
+
+    "map.eyebrow": "Where we work",
+    "map.title": "All seven Emirates. One trusted team.",
+    "map.lede": "Vetted suppliers, in-region crews, and full permit handling — wherever your school is in the UAE.",
+
+    "culture.eyebrow": "UAE calendar aware",
+    "culture.title": "We plan around the moments that matter.",
+    "culture.lede": "A school event that lands on Ramadan or clashes with Eid is a school event done wrong. Our calendars are tuned to the UAE rhythm — and we'll always flag a conflict before you commit.",
+    "c1.t": "Ramadan-ready events",
+    "c1.d": "Earlier start times, Iftar catering, modest staging, no music during prayer hours. We adjust run-of-show so the day still feels celebratory without disrupting the holy month.",
+    "c2.t": "Eid timing",
+    "c2.d": "We never schedule on the first day of either Eid. Around Eid we shift events to give families breathing room and lean into Eid-themed decor where appropriate.",
+    "c3.t": "UAE National Day",
+    "c3.d": "Flag ceremonies, heritage activities, and Emirati-themed annual days. Our National Day kits come with the right symbols done with respect — never as costume.",
+    "c4.t": "Flag Day",
+    "c4.d": "Quick morning assemblies and campus-wide flag moments. We handle the coordination so the tribute feels genuine, not performative.",
+    "c5.t": "Hijri observances",
+    "c5.d": "We adjust the school calendar so events don't compete with these reflective days. Optional school assemblies can be added if your leadership wants them.",
+    "c6.t": "Commemoration Day",
+    "c6.d": "A day of quiet respect across the UAE. We pause all event comms and shift any activities scheduled for that day to a more appropriate moment.",
+
+    "res.eyebrow": "Free resources",
+    "res.title": "Steal our templates.",
+    "res.lede": "Three guides we give to every new school we work with. Free, no email gate.",
+    "r1.t": "Parent Communication Templates",
+    "r1.d": "Email and WhatsApp scripts for invitations, RSVPs, reminders, and post-event thank-yous. Bilingual EN/AR.",
+    "r1.btn": "Download PDF",
+    "r2.t": "Annual Day Theme Ideas",
+    "r2.d": "40+ tested themes from UAE schools with stage-deck references, color palettes, and decoration guides.",
+    "r2.btn": "Download PDF",
+    "r3.t": "School Event Budget Worksheet",
+    "r3.d": "A simple spreadsheet with line items most UAE schools forget — permits, safeguarding, contingency. Editable.",
+    "r3.btn": "Download PDF",
+
+    "calc.eyebrow": "Quick estimate",
+    "calc.title": "What's an event likely to cost?",
+    "calc.lede": "Drag the sliders. This is a rough guide, not a quote — every school is different. We'll give you a real number within a working day.",
+    "calc.estimate": "Estimated range",
+    "calc.note": "Indicative only. Subject to venue, permits, and final scope.",
+    "calc.cta": "Get an exact quote",
+    "calc.audience": "Audience size",
+    "calc.duration": "Event duration",
+    "calc.services": "Services needed",
+    "calc.svcAv": "Sound, lighting & staging",
+    "calc.svcCat": "Catering",
+    "calc.svcPho": "Photography & video",
+    "calc.svcDec": "Decor & theming",
+    "calc.svcPerf": "Performers / entertainers",
+    "calc.svcTrn": "Transport",
+    "float.cta": "Plan your event",
 
     "mvv.eyebrow": "What we stand for",
     "mvv.title": "Mission, vision, and the values we won't compromise.",
@@ -207,6 +273,8 @@ const I18N = {
     "nav.why": "لماذا نحن",
     "nav.story": "قصتنا",
     "nav.faq": "الأسئلة",
+    "nav.timeline": "الجدول",
+    "nav.calc": "تقدير",
     "nav.quote": "اطلب عرض سعر",
     "lang.label": "English",
 
@@ -287,6 +355,70 @@ const I18N = {
     "faq.q7.d": "<p>تتسلّمون تقريرًا كاملًا خلال أسبوع: صور وفيديو وأعداد الحضور وتقارير الإنفاق، إضافة إلى جلسة تقييم قصيرة لجعل العام القادم أفضل.</p>",
     "faq.q8.t": "هل يمكنكم إرسال جدول زمني نموذجي أولًا؟",
     "faq.q8.d": "<p>بالطبع. بعد لقائنا الأول نُرسل لكم نموذجًا لجدول الحفل وميزانية بحسب نوع الفعالية التي تتخيلونها — بلا التزام، وتبقى لكم.</p>",
+
+    "timeline.eyebrow": "من الانطلاقة إلى رفع الستار",
+    "timeline.title": "كيف يبدو الجدول الزمني للفعالية فعلًا.",
+    "timeline.lede": "تستغرق الفعالية الرئيسية النموذجية لدى فيتا نوفا أكثر من اثني عشر أسبوعًا. إليك بالضبط ما نفعله في كل مرحلة حتى لا تتساءلوا: «ماذا يحدث الآن؟».",
+    "tl1.t": "قبل 12 أسبوعًا — الملخص والميزانية",
+    "tl1.d": "لقاء استكشافي، زيارة للموقع، عصف ذهني للثيم. توقّعون على ميزانية شفافة واتجاه إبداعي عام.",
+    "tl2.t": "قبل 8 أسابيع — المورّدون والعقود",
+    "tl2.d": "مطعم، صوت وإضاءة، مصور، خيمة، نقل، أمن — جميعها متعاقد معها. تُقدَّم التصاريح للجهات الإماراتية المعنية.",
+    "tl3.t": "قبل 4 أسابيع — التواصل والتأكيدات",
+    "tl3.d": "تصدر الدعوات، وتصل رسائل لأولياء الأمور، وتُفتح التذاكر، ويتأكد الرعاة، ويُسوَّد برنامج الحفل.",
+    "tl4.t": "قبل أسبوع — البروفة الكاملة",
+    "tl4.d": "تجربة كاملة مع فريق المدرسة. العدد النهائي. الخطة البديلة مُوزَّعة. قهوة للجميع.",
+    "tl5.t": "يوم الحدث — عرض",
+    "tl5.d": "يصل فريقنا عند شروق الشمس، ويُدير البروفة والحفل والتنظيف. تستمتعون بيومكم. ونتولّى نحن الباقي.",
+
+    "map.eyebrow": "أين نعمل",
+    "map.title": "الإمارات السبع كلها. فريق واحد موثوق.",
+    "map.lede": "مورّدون معتمدون، وأطقم داخل المنطقة، ومعالجة كاملة للتصاريح — أينما كانت مدرستكم في الإمارات.",
+
+    "culture.eyebrow": "واعون للتقويم الإماراتي",
+    "culture.title": "نخطّط حول اللحظات المهمة.",
+    "culture.lede": "فعالية مدرسية تصادف رمضان أو تتضارب مع العيد هي فعالية مدرسية خاطئة. تقاويمنا مضبوطة على الإيقاع الإماراتي — وسنُنبّهكم بأي تعارض قبل أن تلتزموا.",
+    "c1.t": "فعاليات ملائمة لرمضان",
+    "c1.d": "أوقات بدء أبكر، وخدمة إفطار، ومسرح محتشم، ولا موسيقى في ساعات الصلاة. نعدّل برنامج الحفل ليظل اليوم احتفاليًا دون الإخلال بقدسية الشهر.",
+    "c2.t": "توقيت العيد",
+    "c2.d": "لا نُجدوِل أي فعالية في أول أيام العيدين. حول العيد نؤخّر الفعاليات لتُعطى الأسر متنفسًا ونُكثّف ديكور العيد حيث يكون مناسبًا.",
+    "c3.t": "اليوم الوطني الإماراتي",
+    "c3.d": "احتفالات العلم، وأنشطة تراثية، وأيام سنوية بطابع إماراتي. تأتي أطقم اليوم الوطني لدينا بالرموز الصحيحة المُقدَّمة باحترام — لا كزيّ تنكّري.",
+    "c4.t": "يوم العلم",
+    "c4.d": "طوابير صباحية سريعة ولحظة علم على مستوى الحرم. ننسّق بحيث تبدو التحية صادقة، لا استعراضية.",
+    "c5.t": "مناسبات هجرية",
+    "c5.d": "نعدّل تقويم المدرسة كي لا تتنافس الفعاليات مع هذه الأيام التأملية. يمكن إضافة طوابير اختيارية إن أرادت القيادة المدرسية ذلك.",
+    "c6.t": "يوم الشهيد",
+    "c6.d": "يوم من الاحترام الهادئ في الإمارات. نوقف جميع رسائل الفعاليات ونؤجّل أي نشاط في ذلك اليوم إلى وقت أكثر ملاءمة.",
+
+    "res.eyebrow": "موارد مجانية",
+    "res.title": "استخدموا قوالبنا.",
+    "res.lede": "ثلاثة أدلة نمنحها لكل مدرسة نعمل معها. مجانية، بلا بوابة بريد.",
+    "r1.t": "قوالب التواصل مع أولياء الأمور",
+    "r1.d": "نصوص بريد وواتساب للدعوات والتأكيدات والتذكيرات والشكر بعد الفعالية. ثنائية اللغة.",
+    "r1.btn": "تحميل PDF",
+    "r2.t": "أفكار ثيم اليوم السنوي",
+    "r2.d": "أكثر من 40 ثيمًا مُجرَّبًا من مدارس إماراتية مع مراجع لخشبة المسرح ولوحات ألوان وأدلة ديكور.",
+    "r2.btn": "تحميل PDF",
+    "r3.t": "ورقة ميزانية الفعاليات المدرسية",
+    "r3.d": "جدول بسيط يحتوي بنودًا تنساها كثير من المدارس الإماراتية — تصاريح، حماية طفل، طوارئ. قابل للتعديل.",
+    "r3.btn": "تحميل PDF",
+
+    "calc.eyebrow": "تقدير سريع",
+    "calc.title": "كم قد تكلّف الفعالية؟",
+    "calc.lede": "حرّكوا المؤشرات. هذا دليل تقريبي لا عرض سعر — كل مدرسة مختلفة. سنمنحكم رقمًا حقيقيًا خلال يوم عمل.",
+    "calc.estimate": "النطاق المُقدَّر",
+    "calc.note": "استرشادي فقط. يخضع للموقع والتصاريح والنطاق النهائي.",
+    "calc.cta": "احصل على عرض دقيق",
+    "calc.audience": "حجم الجمهور",
+    "calc.duration": "مدة الفعالية",
+    "calc.services": "الخدمات المطلوبة",
+    "calc.svcAv": "الصوت والإضاءة والمسرح",
+    "calc.svcCat": "التموين",
+    "calc.svcPho": "التصوير والفيديو",
+    "calc.svcDec": "الديكور والثيم",
+    "calc.svcPerf": "فنانون ومسلّون",
+    "calc.svcTrn": "النقل",
+    "float.cta": "خطّط لفعاليتك",
 
     "mvv.eyebrow": "ما نؤمن به",
     "mvv.title": "الرسالة والرؤية والقيم التي لا نتهاون فيها.",
@@ -548,3 +680,224 @@ document.querySelectorAll("[data-lang-toggle]").forEach((b) =>
 document.querySelectorAll("[data-theme-toggle]").forEach((b) =>
   b.addEventListener("click", () => setTimeout(window._recalcFaq, 50))
 );
+
+// ---------- Hero particles (cursor follow) ----------
+(function initHeroParticles() {
+  const canvas = document.getElementById("heroParticles");
+  if (!canvas) return;
+  // Skip on touch / reduced motion
+  const isTouch = matchMedia("(hover: none)").matches;
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (isTouch || reduce) return;
+
+  const ctx = canvas.getContext("2d");
+  const dpr = Math.min(window.devicePixelRatio || 1, 2);
+  let w = 0, h = 0;
+  let particles = [];
+  const mouse = { x: -9999, y: -9999, active: false };
+  let scrollY = window.scrollY;
+
+  function resize() {
+    const rect = canvas.parentElement.getBoundingClientRect();
+    w = rect.width;
+    h = rect.height;
+    canvas.width = w * dpr;
+    canvas.height = h * dpr;
+    canvas.style.width = w + "px";
+    canvas.style.height = h + "px";
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  }
+  resize();
+  window.addEventListener("resize", resize);
+
+  const COUNT = 60;
+  for (let i = 0; i < COUNT; i++) {
+    particles.push({
+      x: Math.random() * w,
+      y: Math.random() * h,
+      vx: (Math.random() - 0.5) * 0.4,
+      vy: (Math.random() - 0.5) * 0.4,
+      r: Math.random() * 1.6 + 0.6,
+    });
+  }
+
+  canvas.parentElement.addEventListener("mousemove", (e) => {
+    const rect = canvas.getBoundingClientRect();
+    mouse.x = e.clientX - rect.left;
+    mouse.y = e.clientY - rect.top;
+    mouse.active = true;
+  });
+  canvas.parentElement.addEventListener("mouseleave", () => {
+    mouse.active = false;
+  });
+  window.addEventListener("scroll", () => { scrollY = window.scrollY; }, { passive: true });
+
+  function draw() {
+    const heroBottom = canvas.parentElement.getBoundingClientRect().bottom;
+    if (heroBottom < 0) {
+      requestAnimationFrame(draw);
+      return;
+    }
+    ctx.clearRect(0, 0, w, h);
+    // Connections
+    for (let i = 0; i < particles.length; i++) {
+      const a = particles[i];
+      if (mouse.active) {
+        const dx = a.x - mouse.x, dy = a.y - mouse.y;
+        const d = Math.hypot(dx, dy);
+        if (d < 110) {
+          ctx.strokeStyle = `rgba(212, 175, 55, ${(1 - d / 110) * 0.45})`;
+          ctx.lineWidth = 0.6;
+          ctx.beginPath();
+          ctx.moveTo(a.x, a.y);
+          ctx.lineTo(mouse.x, mouse.y);
+          ctx.stroke();
+        }
+      }
+      for (let j = i + 1; j < particles.length; j++) {
+        const b = particles[j];
+        const dx = a.x - b.x, dy = a.y - b.y;
+        const d = Math.hypot(dx, dy);
+        if (d < 90) {
+          ctx.strokeStyle = `rgba(212, 175, 55, ${(1 - d / 90) * 0.25})`;
+          ctx.lineWidth = 0.5;
+          ctx.beginPath();
+          ctx.moveTo(a.x, a.y);
+          ctx.lineTo(b.x, b.y);
+          ctx.stroke();
+        }
+      }
+    }
+    // Particles
+    for (const p of particles) {
+      // Drift toward mouse
+      if (mouse.active) {
+        const dx = mouse.x - p.x, dy = mouse.y - p.y;
+        const d = Math.hypot(dx, dy);
+        if (d < 130 && d > 0) {
+          p.vx += (dx / d) * 0.02;
+          p.vy += (dy / d) * 0.02;
+        }
+      }
+      p.x += p.vx;
+      p.y += p.vy;
+      p.vx *= 0.96;
+      p.vy *= 0.96;
+      p.vx += (Math.random() - 0.5) * 0.05;
+      p.vy += (Math.random() - 0.5) * 0.05;
+      if (p.x < 0) p.x = w; else if (p.x > w) p.x = 0;
+      if (p.y < 0) p.y = h; else if (p.y > h) p.y = 0;
+      ctx.fillStyle = "rgba(212, 175, 55, 0.85)";
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+      ctx.fill();
+    }
+    requestAnimationFrame(draw);
+  }
+  requestAnimationFrame(draw);
+})();
+
+// ---------- Floating CTA visibility ----------
+(function initFloatingCta() {
+  const cta = document.getElementById("floatingCta");
+  if (!cta) return;
+  const contact = document.getElementById("contact");
+  function update() {
+    const past = window.scrollY > 600;
+    const inContact = contact && contact.getBoundingClientRect().top < window.innerHeight * 0.7;
+    if (past && !inContact) cta.classList.add("visible"), cta.setAttribute("aria-hidden", "false");
+    else cta.classList.remove("visible"), cta.setAttribute("aria-hidden", "true");
+  }
+  window.addEventListener("scroll", update, { passive: true });
+  window.addEventListener("resize", update);
+  update();
+})();
+
+// ---------- Cost calculator ----------
+(function initCalculator() {
+  const form = document.getElementById("calcForm");
+  if (!form) return;
+  const audience = document.getElementById("calcAudience");
+  const duration = document.getElementById("calcDuration");
+  const audOut = document.getElementById("calcAudienceOut");
+  const durOut = document.getElementById("calcDurationOut");
+  const price = document.getElementById("calcPrice");
+  const services = {
+    av: document.getElementById("svc-av"),
+    cater: document.getElementById("svc-cater"),
+    photo: document.getElementById("svc-photo"),
+    decor: document.getElementById("svc-decor"),
+    perform: document.getElementById("svc-perform"),
+    transport: document.getElementById("svc-transport"),
+  };
+
+  // Per-unit indicative rates in AED
+  const BASE = 8000;             // fixed setup / lead
+  const PER_GUEST = 35;          // per-guest base
+  const PER_HOUR = 1500;         // per-hour ops
+  const SVC = {
+    av: 4500,
+    cater: 120,                  // per guest
+    photo: 4000,
+    decor: 8000,
+    perform: 6000,
+    transport: 2500,
+  };
+
+  function fmt(n) {
+    return "AED " + Math.round(n).toLocaleString("en-US");
+  }
+  function update() {
+    const a = parseInt(audience.value, 10);
+    const d = parseInt(duration.value, 10);
+    audOut.textContent = a.toLocaleString("en-US") + " guests";
+    durOut.textContent = d + " hours";
+    let low = BASE;
+    let high = BASE * 1.6;
+    low += a * PER_GUEST;
+    high += a * (PER_GUEST * 1.4);
+    low += d * PER_HOUR;
+    high += d * PER_HOUR * 1.4;
+    if (services.av.checked) { low += SVC.av * 0.8; high += SVC.av * 1.2; }
+    if (services.cater.checked) { low += a * SVC.cater * 0.7; high += a * SVC.cater * 1.1; }
+    if (services.photo.checked) { low += SVC.photo * 0.8; high += SVC.photo * 1.2; }
+    if (services.decor.checked) { low += SVC.decor * 0.7; high += SVC.decor * 1.3; }
+    if (services.perform.checked) { low += SVC.perform * 0.7; high += SVC.perform * 1.3; }
+    if (services.transport.checked) { low += SVC.transport * 0.8; high += SVC.transport * 1.2; }
+    price.textContent = fmt(low) + " – " + fmt(high);
+  }
+  [audience, duration].forEach((el) => el.addEventListener("input", update));
+  Object.values(services).forEach((el) => el && el.addEventListener("change", update));
+  update();
+})();
+
+// ---------- Resource download buttons ----------
+document.querySelectorAll(".res-download").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    const name = btn.getAttribute("data-res-name") || "the guide";
+    const lang = document.body.getAttribute("data-lang") || "en";
+    const msg = lang === "ar"
+      ? "شكرًا لاهتمامك! في النسخة الكاملة، سيرسل «" + name + "» تلقائيًا. هذا نموذج أولي — أرسل لنا رسالة في قسم \"تواصل\" وسنرسل لك الدليل."
+      : "Thanks for your interest! In the live build, \"" + name + "\" would email to you automatically. This is a prototype — message us in the contact section and we'll send the guide over.";
+    alert(msg);
+  });
+});
+
+// ---------- UAE map hover interaction ----------
+document.querySelectorAll(".uae-svg .emirate").forEach((poly) => {
+  const key = poly.getAttribute("data-emirate");
+  const li = document.querySelector('.emirate-list li[data-emirate="' + key + '"]');
+  if (!li) return;
+  poly.addEventListener("mouseenter", () => {
+    document.querySelectorAll(".emirate-list li").forEach((x) => x.classList.remove("active"));
+    li.classList.add("active");
+  });
+  poly.addEventListener("mouseleave", () => li.classList.remove("active"));
+});
+document.querySelectorAll(".emirate-list li").forEach((li) => {
+  const key = li.getAttribute("data-emirate");
+  const poly = document.querySelector('.uae-svg .emirate[data-emirate="' + key + '"]');
+  if (!poly) return;
+  li.addEventListener("mouseenter", () => li.classList.add("active"));
+  li.addEventListener("mouseleave", () => li.classList.remove("active"));
+});
