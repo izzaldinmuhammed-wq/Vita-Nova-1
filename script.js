@@ -67,10 +67,10 @@ const I18N = {
 
     "story.eyebrow": "Our story",
     "story.title": "We started Vita Nova after a thousand school runs went sideways.",
-    "story.p1": "Between the two of us, we've spent fifteen years inside UAE schools — Yara as a primary-school coordinator in Sharjah, Nadia running events for an international school in Dubai. We loved the work and hated the chaos. The same last-minute rushes, the same vendor phone calls, the same nervous principals at 6am on event day.",
+    "story.p1": "Between us, we've spent over fifteen years inside UAE schools — running events, coordinating calendars, chasing suppliers, and standing next to nervous principals at 6am on event day. We loved the work and hated the chaos. The same last-minute rushes, the same vendor phone calls, the same frantic WhatsApp threads the night before.",
     "story.p2": "So in 2024 we built the team we wished we'd had: one point of contact, transparent budgets, calm on the day, and a real plan B. Vita Nova is what event management looks like when it's run by people who've actually been on the other side of the clipboard.",
     "story.p3": "Today we work with schools across all seven Emirates — and we still get to every load-in at sunrise.",
-    "story.caption": "Yara & Nadia — Co-founders, Vita Nova",
+    "story.caption": "Founded 2024, Dubai · A team built by people who've been on the other side of the clipboard",
 
     "faq.eyebrow": "Common questions",
     "faq.title": "Things schools ask before they book",
@@ -264,10 +264,10 @@ const I18N = {
 
     "story.eyebrow": "قصتنا",
     "story.title": "بدأنا فيتا نوفا بعد ألف مهمة مدرسية خرجت عن السيطرة.",
-    "story.p1": "بيننا نحن الاثنتان، أمضينا خمس عشرة سنة داخل مدارس الإمارات — يارا كمنسّقة في مدرسة ابتدائية بالشارقة، ونادية تُدير فعاليات مدرسة دولية في دبي. أحببنا العمل وكَرِهنا الفوضى. نفس التسرّع في اللحظة الأخيرة، ونفس اتصالات المورّدين، ونفس المديرين القلقين عند السادسة صباحًا في يوم الحدث.",
+    "story.p1": "بيننا نحن الفريق، أمضينا أكثر من خمس عشرة سنة داخل مدارس الإمارات — نُدير فعاليات، وننسّق جداول، ونتابع مورّدين، ونقف بجانب مديرين قلقين عند السادسة صباحًا في يوم الحدث. أحببنا العمل وكَرِهنا الفوضى. نفس التسرّع في اللحظة الأخيرة، ونفس اتصالات المورّدين، ونفس خيوط واتساب المحمومة في الليلة السابقة.",
     "story.p2": "فقررنا في 2024 أن نُكوِّن الفريق الذي كنّا نتمنّى وجوده معنا: جهة اتصال واحدة، وميزانيات شفافة، وهدوء في يوم الحدث، وخطة بديلة حقيقية. فيتا نوفا هي إدارة الفعاليات حين يتولاها أشخاص كانوا فعلًا على الجانب الآخر من قائمة المهام.",
     "story.p3": "اليوم نعمل مع مدارس في الإمارات السبع — ولا نزال نصل إلى موقع التحميل عند شروق الشمس.",
-    "story.caption": "يارا ونادية — المؤسستان الشريكتان، فيتا نوفا",
+    "story.caption": "تأسست في 2024، دبي · فريق بناه أشخاص كانوا على الجانب الآخر من قائمة المهام",
 
     "faq.eyebrow": "أسئلة شائعة",
     "faq.title": "أسئلة تطرحها المدارس قبل الحجز",
