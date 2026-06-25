@@ -9,6 +9,21 @@
       content="Vita Nova is a UAE-based event management company planning academic guides, annual programs, graduations, sports days, and more for schools across the Emirates."
     />
     <meta name="theme-color" content="#ffffff" />
+
+    <!-- Open Graph / social sharing -->
+    <meta property="og:title" content="Vita Nova — Event Management for Schools in the UAE" />
+    <meta property="og:description" content="We plan academic guides, annual programs, graduations, sports days, and more for schools across the Emirates." />
+    <meta property="og:image" content="./og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_AE" />
+    <meta property="og:locale:alternate" content="ar_AE" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Vita Nova — Event Management for Schools in the UAE" />
+    <meta name="twitter:description" content="We plan academic guides, annual programs, graduations, sports days, and more for schools across the Emirates." />
+    <meta name="twitter:image" content="./og-image.png" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,6 +37,11 @@
     />
   </head>
   <body>
+    <!-- Scroll progress bar -->
+    <div class="scroll-progress" aria-hidden="true">
+      <div class="scroll-progress-fill" id="scrollProgressFill"></div>
+    </div>
+
     <header class="site-header">
       <div class="container nav">
         <a href="#top" class="brand" aria-label="Vita Nova home">
@@ -29,10 +49,10 @@
           <span class="brand-name" data-i18n="brand">Vita Nova</span>
         </a>
         <nav class="nav-links" aria-label="Primary">
+          <a href="#story" data-i18n="nav.story">Story</a>
           <a href="#services" data-i18n="nav.services">Services</a>
-          <a href="#events" data-i18n="nav.events">Events</a>
           <a href="#process" data-i18n="nav.process">Process</a>
-          <a href="#why" data-i18n="nav.why">Why us</a>
+          <a href="#faq" data-i18n="nav.faq">FAQ</a>
           <a href="#contact" class="btn btn-ghost" data-i18n="nav.quote">Get a quote</a>
           <button
             class="lang-toggle"
@@ -41,6 +61,14 @@
             data-lang-toggle
           >
             <span data-lang-label>العربية</span>
+          </button>
+          <button
+            class="theme-toggle"
+            type="button"
+            aria-label="Toggle dark mode"
+            data-theme-toggle
+          >
+            <span class="theme-icon" aria-hidden="true">☾</span>
           </button>
         </nav>
         <button
@@ -100,6 +128,34 @@
                 <div class="sc-meta" data-i18n="stack.m3">320 graduates · Abu Dhabi</div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Founder's story -->
+      <section id="story" class="section">
+        <div class="container founder-grid">
+          <div class="founder-portrait" aria-hidden="true">
+            <div class="portrait-frame">
+              <div class="portrait-initials">YN</div>
+              <div class="portrait-ring r-a"></div>
+              <div class="portrait-ring r-b"></div>
+              <div class="portrait-ring r-c"></div>
+            </div>
+            <p class="portrait-caption" data-i18n="story.caption">Yara & Nadia — Co-founders, Vita Nova</p>
+          </div>
+          <div class="founder-copy">
+            <p class="eyebrow" data-i18n="story.eyebrow">Our story</p>
+            <h2 data-i18n="story.title">We started Vita Nova after a thousand school runs went sideways.</h2>
+            <p data-i18n="story.p1">
+              Between the two of us, we've spent fifteen years inside UAE schools — Yara as a primary-school coordinator in Sharjah, Nadia running events for an international school in Dubai. We loved the work and hated the chaos. The same last-minute rushes, the same vendor phone calls, the same nervous principals at 6am on event day.
+            </p>
+            <p data-i18n="story.p2">
+              So in 2024 we built the team we wished we'd had: one point of contact, transparent budgets, calm on the day, and a real plan B. Vita Nova is what event management looks like when it's run by people who've actually been on the other side of the clipboard.
+            </p>
+            <p data-i18n="story.p3">
+              Today we work with schools across all seven Emirates — and we still get to every load-in at sunrise.
+            </p>
           </div>
         </div>
       </section>
@@ -274,6 +330,90 @@
         </div>
       </section>
 
+      <!-- FAQ -->
+      <section id="faq" class="section section-alt">
+        <div class="container">
+          <header class="section-head">
+            <p class="eyebrow" data-i18n="faq.eyebrow">Common questions</p>
+            <h2 data-i18n="faq.title">Things schools ask before they book</h2>
+          </header>
+          <ul class="faq-list">
+            <li class="faq-item">
+              <button type="button" class="faq-q" aria-expanded="false">
+                <span data-i18n="faq.q1.t">How far in advance should we book?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-a" data-i18n="faq.q1.d">
+                <p>Ideally 6–8 weeks for most events, 12+ weeks for annual days and graduations. We've also pulled off miracles in two weeks when a school suddenly finds out the Minister is visiting — but more time always means a calmer day.</p>
+              </div>
+            </li>
+            <li class="faq-item">
+              <button type="button" class="faq-q" aria-expanded="false">
+                <span data-i18n="faq.q2.t">Do you handle permits and approvals?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-a" data-i18n="faq.q2.d">
+                <p>Yes. We coordinate with the relevant UAE authorities for venue, fire, safety, and child-event permits, and we share a risk assessment with your leadership team before the day.</p>
+              </div>
+            </li>
+            <li class="faq-item">
+              <button type="button" class="faq-q" aria-expanded="false">
+                <span data-i18n="faq.q3.t">Can you work with our budget?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-a" data-i18n="faq.q3.d">
+                <p>Always. We present a transparent budget with three tiers before you commit, and every dirham is tracked in a shared sheet so you always know where the money went.</p>
+              </div>
+            </li>
+            <li class="faq-item">
+              <button type="button" class="faq-q" aria-expanded="false">
+                <span data-i18n="faq.q4.t">Do you provide the equipment and decor?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-a" data-i18n="faq.q4.d">
+                <p>Yes — sound, lighting, staging, decor, signage, photo walls, marquees, and anything else you need. Everything is rented or sourced, never permanent, and we leave your campus exactly as we found it.</p>
+              </div>
+            </li>
+            <li class="faq-item">
+              <button type="button" class="faq-q" aria-expanded="false">
+                <span data-i18n="faq.q5.t">Are your staff child-safeguarding trained?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-a" data-i18n="faq.q5.d">
+                <p>Every Vita Nova team member is safeguarding-trained and background-checked. We follow your school's safeguarding policy on the day, and we never photograph or film students without explicit consent.</p>
+              </div>
+            </li>
+            <li class="faq-item">
+              <button type="button" class="faq-q" aria-expanded="false">
+                <span data-i18n="faq.q6.t">Which Emirates do you cover?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-a" data-i18n="faq.q6.d">
+                <p>All seven. We have vetted suppliers in Abu Dhabi, Dubai, Sharjah, Ajman, Umm Al Quwain, Ras Al Khaimah, and Fujairah.</p>
+              </div>
+            </li>
+            <li class="faq-item">
+              <button type="button" class="faq-q" aria-expanded="false">
+                <span data-i18n="faq.q7.t">What happens after the event?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-a" data-i18n="faq.q7.d">
+                <p>You receive a full debrief within a week: photos, video highlights, attendance and spend reports, plus a short debrief call so next year is even better.</p>
+              </div>
+            </li>
+            <li class="faq-item">
+              <button type="button" class="faq-q" aria-expanded="false">
+                <span data-i18n="faq.q8.t">Can we see a sample timeline first?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-a" data-i18n="faq.q8.d">
+                <p>Of course. After our first call we'll send a sample run-of-show and budget for the kind of event you have in mind — no obligation, yours to keep.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
       <!-- Why us -->
       <section id="why" class="section section-alt">
         <div class="container why-grid">
@@ -306,6 +446,82 @@
             <li>
               <h4 data-i18n="w5.t">Calm on the day</h4>
               <p data-i18n="w5.d">We bring the spare plan, the spare mic, and the spare patience.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Mission / Vision / Values -->
+      <section id="mvv" class="section">
+        <div class="container">
+          <header class="section-head">
+            <p class="eyebrow" data-i18n="mvv.eyebrow">What we stand for</p>
+            <h2 data-i18n="mvv.title">Mission, vision, and the values we won't compromise.</h2>
+          </header>
+          <div class="mvv-grid">
+            <article class="mvv-card">
+              <div class="mvv-icon">★</div>
+              <h3 data-i18n="mvv.m.t">Mission</h3>
+              <p data-i18n="mvv.m.d">To make every school event in the UAE feel like the team had months to prepare — even when they had weeks.</p>
+            </article>
+            <article class="mvv-card">
+              <div class="mvv-icon">◐</div>
+              <h3 data-i18n="mvv.v.t">Vision</h3>
+              <p data-i18n="mvv.v.d">A future where school events in the Emirates are benchmarks for the region — safe, sustainable, joyful, and unmistakably student-led.</p>
+            </article>
+            <article class="mvv-card mvv-card-values">
+              <div class="mvv-icon">◆</div>
+              <h3 data-i18n="mvv.va.t">Values</h3>
+              <ul class="values-list">
+                <li><strong data-i18n="mvv.va1.t">Calm.</strong> <span data-i18n="mvv.va1.d">We bring the spare plan, the spare patience, and the spare mic.</span></li>
+                <li><strong data-i18n="mvv.va2.t">Honesty.</strong> <span data-i18n="mvv.va2.d">Budgets you can read. Schedules you can trust. Mistakes owned fast.</span></li>
+                <li><strong data-i18n="mvv.va3.t">Safety.</strong> <span data-i18n="mvv.va3.d">Every child on campus is treated like our own. Every permit, signed.</span></li>
+                <li><strong data-i18n="mvv.va4.t">Craft.</strong> <span data-i18n="mvv.va4.d">Good enough isn't. We sweat the details so the day feels effortless.</span></li>
+                <li><strong data-i18n="mvv.va5.t">Joy.</strong> <span data-i18n="mvv.va5.d">If the kids aren't delighted, we haven't done our job.</span></li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sustainability promise -->
+      <section id="sustainability" class="section section-alt">
+        <div class="container sustain-grid">
+          <div>
+            <p class="eyebrow" data-i18n="sus.eyebrow">Sustainability</p>
+            <h2 data-i18n="sus.title">Better events, lighter footprint.</h2>
+            <p data-i18n="sus.p1">
+              UAE schools are leading the region on climate action, and events shouldn't be the exception. We design every Vita Nova event with the planet in mind — without ever cutting corners on the experience.
+            </p>
+            <p data-i18n="sus.p2">
+              Our default is reusable. Our backup is recyclable. Single-use is the last resort, not the first.
+            </p>
+          </div>
+          <ul class="sus-pillars">
+            <li>
+              <span class="sus-num">01</span>
+              <h4 data-i18n="sus.c1.t">Reusable over disposable</h4>
+              <p data-i18n="sus.c1.d">Backdrops, signage, props and stage sets designed to be stored and reused year after year.</p>
+            </li>
+            <li>
+              <span class="sus-num">02</span>
+              <h4 data-i18n="sus.c2.t">Local suppliers first</h4>
+              <p data-i18n="sus.c2.d">Shorter trips, fresher food, smaller carbon bills — and better support for the UAE economy.</p>
+            </li>
+            <li>
+              <span class="sus-num">03</span>
+              <h4 data-i18n="sus.c3.t">Plant-forward menus</h4>
+              <p data-i18n="sus.c3.d">At least one fully plant-based menu option at every event, no questions asked.</p>
+            </li>
+            <li>
+              <span class="sus-num">04</span>
+              <h4 data-i18n="sus.c4.t">Zero printed waste</h4>
+              <p data-i18n="sus.c4.d">Digital tickets, QR check-ins, and shared event apps replace paper programs and flyers.</p>
+            </li>
+            <li>
+              <span class="sus-num">05</span>
+              <h4 data-i18n="sus.c5.t">Honest reporting</h4>
+              <p data-i18n="sus.c5.d">Every event ships with a short sustainability report — what we reused, what we recycled, what we'll do better.</p>
             </li>
           </ul>
         </div>
