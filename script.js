@@ -8,6 +8,8 @@ const I18N = {
     "nav.events": "Events",
     "nav.process": "Process",
     "nav.why": "Why us",
+    "nav.story": "Story",
+    "nav.faq": "FAQ",
     "nav.quote": "Get a quote",
     "lang.label": "العربية",
 
@@ -62,6 +64,65 @@ const I18N = {
 
     "events.eyebrow": "Events we love to run",
     "events.title": "Made for the rhythm of a school year",
+
+    "story.eyebrow": "Our story",
+    "story.title": "We started Vita Nova after a thousand school runs went sideways.",
+    "story.p1": "Between the two of us, we've spent fifteen years inside UAE schools — Yara as a primary-school coordinator in Sharjah, Nadia running events for an international school in Dubai. We loved the work and hated the chaos. The same last-minute rushes, the same vendor phone calls, the same nervous principals at 6am on event day.",
+    "story.p2": "So in 2024 we built the team we wished we'd had: one point of contact, transparent budgets, calm on the day, and a real plan B. Vita Nova is what event management looks like when it's run by people who've actually been on the other side of the clipboard.",
+    "story.p3": "Today we work with schools across all seven Emirates — and we still get to every load-in at sunrise.",
+    "story.caption": "Yara & Nadia — Co-founders, Vita Nova",
+
+    "faq.eyebrow": "Common questions",
+    "faq.title": "Things schools ask before they book",
+    "faq.q1.t": "How far in advance should we book?",
+    "faq.q1.d": "<p>Ideally 6–8 weeks for most events, 12+ weeks for annual days and graduations. We've also pulled off miracles in two weeks when a school suddenly finds out the Minister is visiting — but more time always means a calmer day.</p>",
+    "faq.q2.t": "Do you handle permits and approvals?",
+    "faq.q2.d": "<p>Yes. We coordinate with the relevant UAE authorities for venue, fire, safety, and child-event permits, and we share a risk assessment with your leadership team before the day.</p>",
+    "faq.q3.t": "Can you work with our budget?",
+    "faq.q3.d": "<p>Always. We present a transparent budget with three tiers before you commit, and every dirham is tracked in a shared sheet so you always know where the money went.</p>",
+    "faq.q4.t": "Do you provide the equipment and decor?",
+    "faq.q4.d": "<p>Yes — sound, lighting, staging, decor, signage, photo walls, marquees, and anything else you need. Everything is rented or sourced, never permanent, and we leave your campus exactly as we found it.</p>",
+    "faq.q5.t": "Are your staff child-safeguarding trained?",
+    "faq.q5.d": "<p>Every Vita Nova team member is safeguarding-trained and background-checked. We follow your school's safeguarding policy on the day, and we never photograph or film students without explicit consent.</p>",
+    "faq.q6.t": "Which Emirates do you cover?",
+    "faq.q6.d": "<p>All seven. We have vetted suppliers in Abu Dhabi, Dubai, Sharjah, Ajman, Umm Al Quwain, Ras Al Khaimah, and Fujairah.</p>",
+    "faq.q7.t": "What happens after the event?",
+    "faq.q7.d": "<p>You receive a full debrief within a week: photos, video highlights, attendance and spend reports, plus a short debrief call so next year is even better.</p>",
+    "faq.q8.t": "Can we see a sample timeline first?",
+    "faq.q8.d": "<p>Of course. After our first call we'll send a sample run-of-show and budget for the kind of event you have in mind — no obligation, yours to keep.</p>",
+
+    "mvv.eyebrow": "What we stand for",
+    "mvv.title": "Mission, vision, and the values we won't compromise.",
+    "mvv.m.t": "Mission",
+    "mvv.m.d": "To make every school event in the UAE feel like the team had months to prepare — even when they had weeks.",
+    "mvv.v.t": "Vision",
+    "mvv.v.d": "A future where school events in the Emirates are benchmarks for the region — safe, sustainable, joyful, and unmistakably student-led.",
+    "mvv.va.t": "Values",
+    "mvv.va1.t": "Calm.",
+    "mvv.va1.d": "We bring the spare plan, the spare patience, and the spare mic.",
+    "mvv.va2.t": "Honesty.",
+    "mvv.va2.d": "Budgets you can read. Schedules you can trust. Mistakes owned fast.",
+    "mvv.va3.t": "Safety.",
+    "mvv.va3.d": "Every child on campus is treated like our own. Every permit, signed.",
+    "mvv.va4.t": "Craft.",
+    "mvv.va4.d": "Good enough isn't. We sweat the details so the day feels effortless.",
+    "mvv.va5.t": "Joy.",
+    "mvv.va5.d": "If the kids aren't delighted, we haven't done our job.",
+
+    "sus.eyebrow": "Sustainability",
+    "sus.title": "Better events, lighter footprint.",
+    "sus.p1": "UAE schools are leading the region on climate action, and events shouldn't be the exception. We design every Vita Nova event with the planet in mind — without ever cutting corners on the experience.",
+    "sus.p2": "Our default is reusable. Our backup is recyclable. Single-use is the last resort, not the first.",
+    "sus.c1.t": "Reusable over disposable",
+    "sus.c1.d": "Backdrops, signage, props and stage sets designed to be stored and reused year after year.",
+    "sus.c2.t": "Local suppliers first",
+    "sus.c2.d": "Shorter trips, fresher food, smaller carbon bills — and better support for the UAE economy.",
+    "sus.c3.t": "Plant-forward menus",
+    "sus.c3.d": "At least one fully plant-based menu option at every event, no questions asked.",
+    "sus.c4.t": "Zero printed waste",
+    "sus.c4.d": "Digital tickets, QR check-ins, and shared event apps replace paper programs and flyers.",
+    "sus.c5.t": "Honest reporting",
+    "sus.c5.d": "Every event ships with a short sustainability report — what we reused, what we recycled, what we'll do better.",
 
     "e1.t": "Curriculum & academic guides",
     "e1.d": "Subject showcases, IGCSE/A-Level evenings, university fairs.",
@@ -144,6 +205,8 @@ const I18N = {
     "nav.events": "الفعاليات",
     "nav.process": "منهجيتنا",
     "nav.why": "لماذا نحن",
+    "nav.story": "قصتنا",
+    "nav.faq": "الأسئلة",
     "nav.quote": "اطلب عرض سعر",
     "lang.label": "English",
 
@@ -198,6 +261,65 @@ const I18N = {
 
     "events.eyebrow": "فعاليات نحب أن ننفّذها",
     "events.title": "مصمَّمة على إيقاع العام الدراسي",
+
+    "story.eyebrow": "قصتنا",
+    "story.title": "بدأنا فيتا نوفا بعد ألف مهمة مدرسية خرجت عن السيطرة.",
+    "story.p1": "بيننا نحن الاثنتان، أمضينا خمس عشرة سنة داخل مدارس الإمارات — يارا كمنسّقة في مدرسة ابتدائية بالشارقة، ونادية تُدير فعاليات مدرسة دولية في دبي. أحببنا العمل وكَرِهنا الفوضى. نفس التسرّع في اللحظة الأخيرة، ونفس اتصالات المورّدين، ونفس المديرين القلقين عند السادسة صباحًا في يوم الحدث.",
+    "story.p2": "فقررنا في 2024 أن نُكوِّن الفريق الذي كنّا نتمنّى وجوده معنا: جهة اتصال واحدة، وميزانيات شفافة، وهدوء في يوم الحدث، وخطة بديلة حقيقية. فيتا نوفا هي إدارة الفعاليات حين يتولاها أشخاص كانوا فعلًا على الجانب الآخر من قائمة المهام.",
+    "story.p3": "اليوم نعمل مع مدارس في الإمارات السبع — ولا نزال نصل إلى موقع التحميل عند شروق الشمس.",
+    "story.caption": "يارا ونادية — المؤسستان الشريكتان، فيتا نوفا",
+
+    "faq.eyebrow": "أسئلة شائعة",
+    "faq.title": "أسئلة تطرحها المدارس قبل الحجز",
+    "faq.q1.t": "كم يجب أن نحجز مُسبقًا؟",
+    "faq.q1.d": "<p>مثاليًا قبل 6 إلى 8 أسابيع لمعظم الفعاليات، و12 أسبوعًا أو أكثر لليوم السنوي وحفلات التخرّج. تمكّنا أيضًا من تنفيذ «معجزات» في أسبوعين حين تكتشف المدرسة فجأة زيارة وزير — لكن المزيد من الوقت يعني دائمًا يومًا أكثر هدوءًا.</p>",
+    "faq.q2.t": "هل تتولّون التصاريح والموافقات؟",
+    "faq.q2.d": "<p>نعم. ننسّق مع الجهات الإماراتية المعنية لتصاريح المكان والسلامة من الحرائق وفعاليات الأطفال، ونشارك فريق قيادتكم تقييم المخاطر قبل اليوم.</p>",
+    "faq.q3.t": "هل يمكنكم العمل بميزانيتنا؟",
+    "faq.q3.d": "<p>دائمًا. نعرض ميزانية شفافة بثلاثة مستويات قبل أن تلتزموا، وكل درهم موثّق في جدول مشترك لتعرفوا أين ذهب المال.</p>",
+    "faq.q4.t": "هل تؤمّنون المعدات والديكور؟",
+    "faq.q4.d": "<p>نعم — الصوت والإضاءة والمسرح والديكور واللوحات وجدران التصوير والخيام وكل ما تحتاجونه. كل شيء مُستأجر أو مُورَّد، لا شيء دائم، ونترك حرمكم كما وجدناه تمامًا.</p>",
+    "faq.q5.t": "هل طاقمكم مدرَّب على حماية الطفل؟",
+    "faq.q5.d": "<p>كل عضو في فريق فيتا نوفا مدرَّب على حماية الطفل ومُختبَر خلفيًا. نلتزم بسياسة حماية الطفل في مدرستكم في يوم الحدث، ولا نلتقط صورًا أو مقاطع فيديو للطلاب دون موافقة صريحة.</p>",
+    "faq.q6.t": "أي الإمارات تغطّون؟",
+    "faq.q6.d": "<p>الإمارات السبع كلها. لدينا مورّدون معتمدون في أبوظبي ودبي والشارقة وعجمان وأم القيوين ورأس الخيمة والفجيرة.</p>",
+    "faq.q7.t": "ماذا يحدث بعد الفعالية؟",
+    "faq.q7.d": "<p>تتسلّمون تقريرًا كاملًا خلال أسبوع: صور وفيديو وأعداد الحضور وتقارير الإنفاق، إضافة إلى جلسة تقييم قصيرة لجعل العام القادم أفضل.</p>",
+    "faq.q8.t": "هل يمكنكم إرسال جدول زمني نموذجي أولًا؟",
+    "faq.q8.d": "<p>بالطبع. بعد لقائنا الأول نُرسل لكم نموذجًا لجدول الحفل وميزانية بحسب نوع الفعالية التي تتخيلونها — بلا التزام، وتبقى لكم.</p>",
+
+    "mvv.eyebrow": "ما نؤمن به",
+    "mvv.title": "الرسالة والرؤية والقيم التي لا نتهاون فيها.",
+    "mvv.m.t": "الرسالة",
+    "mvv.m.d": "أن نشعر في كل فعالية مدرسية في الإمارات وكأن الفريق أعدّ لشهور — حتى لو أُعطي أسابيع.",
+    "mvv.v.t": "الرؤية",
+    "mvv.v.d": "مستقبل تُعدّ فيه فعاليات المدارس في الإمارات معيارًا للمنطقة — آمنة ومستدامة ومُفرحة ويقودها الطلاب بوضوح.",
+    "mvv.va.t": "القيم",
+    "mvv.va1.t": "الهدوء.",
+    "mvv.va1.d": "نحضر الخطة البديلة والصبر الاحتياطي ومايكروفونًا احتياطيًا.",
+    "mvv.va2.t": "الصدق.",
+    "mvv.va2.d": "ميزانيات يمكن قراءتها. جداول يمكن الوثوق بها. الأخطاء تُعترَف بها سريعًا.",
+    "mvv.va3.t": "السلامة.",
+    "mvv.va3.d": "كل طفل في الحرم يُعامَل كأنه طفلنا. كل تصريح، موقَّع.",
+    "mvv.va4.t": "الإتقان.",
+    "mvv.va4.d": "«يكفي» ليس كافيًا. نهتمّ بالتفاصيل حتى يبدو اليوم بلا جهد.",
+    "mvv.va5.t": "البهجة.",
+    "mvv.va5.d": "إن لم يفرح الأطفال، لم ننجز مهمّتنا.",
+
+    "sus.eyebrow": "الاستدامة",
+    "sus.title": "فعاليات أفضل، أثر بيئي أخفّ.",
+    "sus.p1": "تتقدم مدارس الإمارات في المنطقة بالعمل المناخي، ولا يجب أن تكون الفعاليات استثناءً. نصمّم كل فعالية من فعاليات فيتا نوفا مع مراعاة الكوكب — دون أي تنازل عن جودة التجربة.",
+    "sus.p2": "خيارنا الأول هو القابل لإعادة الاستخدام. والاحتياطي هو القابل لإعادة التدوير. أما الاستخدام مرة واحدة فهو الملاذ الأخير، لا الخيار الأول.",
+    "sus.c1.t": "قابل لإعادة الاستخدام لا للاستهلاك",
+    "sus.c1.d": "خلفيات ولوحات ودعائم ومسرح مصمَّمة للتخزين وإعادة الاستخدام عامًا بعد عام.",
+    "sus.c2.t": "المورّدون المحليون أولًا",
+    "sus.c2.d": "رحلات أقصر، وطعام أطزج، وفواتير كربون أقل — ودعم أفضل لاقتصاد الإمارات.",
+    "sus.c3.t": "قوائم نباتية أوّلًا",
+    "sus.c3.d": "على الأقل قائمة نباتية كاملة في كل فعالية، دون أسئلة.",
+    "sus.c4.t": "بدون هدر مطبوعات",
+    "sus.c4.d": "تذاكر رقمية ودخول بالرمز السري وتطبيقات مشتركة للفعاليات بدلاً من البرامج والمنشورات الورقية.",
+    "sus.c5.t": "تقارير صادقة",
+    "sus.c5.d": "كل فعالية تأتي مع تقرير استدامة موجز — ما أعدنا استخدامه، وما أعدنا تدويره، وما سنفعله أفضل.",
 
     "e1.t": "أدلة أكاديمية ومناهج",
     "e1.d": "معارض المواد، وأمسيات IGCSE/A-Level، ومعارض جامعية.",
@@ -361,3 +483,68 @@ document.getElementById("year").textContent = new Date().getFullYear();
 // ---------- Boot ----------
 const saved = (() => { try { return localStorage.getItem("vn-lang"); } catch (_) { return null; } })();
 applyLang(saved === "ar" ? "ar" : "en");
+
+// ---------- Dark mode ----------
+const themeBtn = document.querySelector("[data-theme-toggle]");
+function applyTheme(theme) {
+  document.body.setAttribute("data-theme", theme);
+  if (themeBtn) {
+    const icon = themeBtn.querySelector(".theme-icon");
+    if (icon) icon.textContent = theme === "dark" ? "☀" : "☾";
+    themeBtn.setAttribute(
+      "aria-label",
+      theme === "dark" ? "Switch to light mode" : "Switch to dark mode"
+    );
+  }
+  try { localStorage.setItem("vn-theme", theme); } catch (_) {}
+}
+if (themeBtn) {
+  themeBtn.addEventListener("click", () => {
+    const current = document.body.getAttribute("data-theme") === "dark" ? "dark" : "light";
+    applyTheme(current === "dark" ? "light" : "dark");
+  });
+}
+const savedTheme = (() => { try { return localStorage.getItem("vn-theme"); } catch (_) { return null; } })();
+applyTheme(savedTheme === "dark" ? "dark" : "light");
+
+// ---------- Scroll progress bar ----------
+const progressFill = document.getElementById("scrollProgressFill");
+function updateProgress() {
+  const doc = document.documentElement;
+  const scrolled = doc.scrollTop || document.body.scrollTop;
+  const max = doc.scrollHeight - doc.clientHeight;
+  const pct = max > 0 ? Math.min(100, (scrolled / max) * 100) : 0;
+  if (progressFill) progressFill.style.width = pct + "%";
+}
+window.addEventListener("scroll", updateProgress, { passive: true });
+window.addEventListener("resize", updateProgress);
+updateProgress();
+
+// ---------- FAQ accordion ----------
+document.querySelectorAll(".faq-item").forEach((item) => {
+  const btn = item.querySelector(".faq-q");
+  const ans = item.querySelector(".faq-a");
+  if (!btn || !ans) return;
+  btn.addEventListener("click", () => {
+    const isOpen = item.classList.toggle("open");
+    btn.setAttribute("aria-expanded", String(isOpen));
+    if (isOpen) {
+      ans.style.maxHeight = ans.scrollHeight + "px";
+    } else {
+      ans.style.maxHeight = "0px";
+    }
+  });
+});
+// Re-measure open FAQs on language change so maxHeight stays correct
+const _origApply = applyLang;
+window._recalcFaq = function () {
+  document.querySelectorAll(".faq-item.open .faq-a").forEach((a) => {
+    a.style.maxHeight = a.scrollHeight + "px";
+  });
+};
+document.querySelectorAll("[data-lang-toggle]").forEach((b) =>
+  b.addEventListener("click", () => setTimeout(window._recalcFaq, 50))
+);
+document.querySelectorAll("[data-theme-toggle]").forEach((b) =>
+  b.addEventListener("click", () => setTimeout(window._recalcFaq, 50))
+);
