@@ -31,10 +31,13 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
-    <link
-      rel="icon"
-      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23000'/%3E%3Ctext x='50' y='66' font-family='Playfair Display, serif' font-size='60' font-weight='800' text-anchor='middle' fill='%23d4af37'%3EV%3C/text%3E%3C/svg%3E"
-    />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./favicon-192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="./favicon-512.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+    <link rel="manifest" href="./site.webmanifest" />
   </head>
   <body>
     <!-- Scroll progress bar -->
@@ -51,8 +54,8 @@
         <nav class="nav-links" aria-label="Primary">
           <a href="#story" data-i18n="nav.story">Story</a>
           <a href="#services" data-i18n="nav.services">Services</a>
-          <a href="#process" data-i18n="nav.process">Process</a>
-          <a href="#faq" data-i18n="nav.faq">FAQ</a>
+          <a href="#timeline" data-i18n="nav.timeline">Timeline</a>
+          <a href="#calculator" data-i18n="nav.calc">Estimate</a>
           <a href="#contact" class="btn btn-ghost" data-i18n="nav.quote">Get a quote</a>
           <button
             class="lang-toggle"
@@ -108,6 +111,7 @@
             </ul>
           </div>
           <div class="hero-art" aria-hidden="true">
+            <canvas id="heroParticles" class="hero-particles"></canvas>
             <div class="gold-ring ring-1"></div>
             <div class="gold-ring ring-2"></div>
             <div class="gold-ring ring-3"></div>
@@ -414,6 +418,234 @@
         </div>
       </section>
 
+      <!-- Timeline -->
+      <section id="timeline" class="section">
+        <div class="container">
+          <header class="section-head">
+            <p class="eyebrow" data-i18n="timeline.eyebrow">From kick-off to curtain up</p>
+            <h2 data-i18n="timeline.title">What an event timeline actually looks like.</h2>
+            <p class="section-lede" data-i18n="timeline.lede">A typical Vita Nova flagship event runs over twelve weeks. Here's exactly what we're doing at every stage so you're never wondering "what's happening now?".</p>
+          </header>
+          <ol class="timeline">
+            <li class="t-item">
+              <div class="t-time">T-12</div>
+              <div class="t-body">
+                <h3 data-i18n="tl1.t">12 weeks out — brief & budget</h3>
+                <p data-i18n="tl1.d">Discovery call, venue walk-through, theme brainstorm. You sign off on a transparent budget and the high-level creative direction.</p>
+              </div>
+            </li>
+            <li class="t-item">
+              <div class="t-time">T-8</div>
+              <div class="t-body">
+                <h3 data-i18n="tl2.t">8 weeks out — suppliers & contracts</h3>
+                <p data-i18n="tl2.d">Caterer, AV, photographer, marquee, transport, security — all contracted. Permits filed with the relevant UAE authorities.</p>
+              </div>
+            </li>
+            <li class="t-item">
+              <div class="t-time">T-4</div>
+              <div class="t-body">
+                <h3 data-i18n="tl3.t">4 weeks out — comms & RSVPs</h3>
+                <p data-i18n="tl3.d">Invitations go out, parent comms land in inboxes, ticketing opens, sponsors confirmed, run-of-show drafted.</p>
+              </div>
+            </li>
+            <li class="t-item">
+              <div class="t-time">T-1</div>
+              <div class="t-body">
+                <h3 data-i18n="tl4.t">1 week out — dress rehearsal</h3>
+                <p data-i18n="tl4.d">Full walk-through with the school team. Final headcount. Spare-plan briefed. Coffee for everyone.</p>
+              </div>
+            </li>
+            <li class="t-item t-item-final">
+              <div class="t-time">T-0</div>
+              <div class="t-body">
+                <h3 data-i18n="tl5.t">Event day — showtime</h3>
+                <p data-i18n="tl5.d">Our team arrives at sunrise, runs the rehearsal, the show, and the wrap. You enjoy the day. We handle the rest.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- UAE service area map -->
+      <section id="uae-map" class="section section-alt">
+        <div class="container">
+          <header class="section-head">
+            <p class="eyebrow" data-i18n="map.eyebrow">Where we work</p>
+            <h2 data-i18n="map.title">All seven Emirates. One trusted team.</h2>
+            <p class="section-lede" data-i18n="map.lede">Vetted suppliers, in-region crews, and full permit handling — wherever your school is in the UAE.</p>
+          </header>
+          <div class="map-grid">
+            <div class="map-wrap">
+              <svg viewBox="0 0 600 360" class="uae-svg" role="img" aria-label="Map of the United Arab Emirates">
+                <defs>
+                  <linearGradient id="uaeFill" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#fdf6e3" />
+                    <stop offset="100%" stop-color="#f5edd6" />
+                  </linearGradient>
+                  <linearGradient id="uaeFillActive" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#d4af37" />
+                    <stop offset="100%" stop-color="#b08d1f" />
+                  </linearGradient>
+                </defs>
+                <!-- Stylized UAE outline (simplified polygons) -->
+                <g class="uae-shapes" stroke="#1a1a1a" stroke-width="1.5" stroke-linejoin="round">
+                  <!-- Abu Dhabi (largest, west) -->
+                  <polygon class="emirate" data-emirate="auh" points="20,160 110,80 250,80 320,120 310,220 240,290 130,290 60,240" fill="url(#uaeFillActive)" />
+                  <!-- Dubai (small, NE of Abu Dhabi) -->
+                  <polygon class="emirate" data-emirate="dxb" points="330,120 400,110 410,170 360,180 320,170" fill="url(#uaeFillActive)" />
+                  <!-- Sharjah -->
+                  <polygon class="emirate" data-emirate="shj" points="415,115 470,100 490,150 460,180 415,175" fill="url(#uaeFillActive)" />
+                  <!-- Ajman -->
+                  <polygon class="emirate" data-emirate="ajm" points="475,160 500,155 505,180 480,185" fill="url(#uaeFillActive)" />
+                  <!-- Umm Al Quwain -->
+                  <polygon class="emirate" data-emirate="uaq" points="480,190 520,185 530,215 490,220" fill="url(#uaeFillActive)" />
+                  <!-- Ras Al Khaimah -->
+                  <polygon class="emirate" data-emirate="rak" points="490,225 555,215 575,250 530,265 480,255" fill="url(#uaeFillActive)" />
+                  <!-- Fujairah (east coast) -->
+                  <polygon class="emirate" data-emirate="fuj" points="555,260 585,250 590,300 545,310 530,285" fill="url(#uaeFillActive)" />
+                </g>
+                <g class="uae-labels" font-family="Georgia, serif" font-size="14" font-weight="700" fill="#0a0a0a" text-anchor="middle">
+                  <text x="170" y="180">Abu Dhabi</text>
+                  <text x="365" y="148">Dubai</text>
+                  <text x="450" y="145">Sharjah</text>
+                  <text x="490" y="175">Ajman</text>
+                  <text x="505" y="207">UAQ</text>
+                  <text x="525" y="245">RAK</text>
+                  <text x="560" y="290">Fujairah</text>
+                </g>
+              </svg>
+            </div>
+            <ul class="emirate-list">
+              <li data-emirate="auh"><strong>Abu Dhabi</strong><span>42 events</span></li>
+              <li data-emirate="dxb"><strong>Dubai</strong><span>38 events</span></li>
+              <li data-emirate="shj"><strong>Sharjah</strong><span>21 events</span></li>
+              <li data-emirate="ajm"><strong>Ajman</strong><span>8 events</span></li>
+              <li data-emirate="uaq"><strong>Umm Al Quwain</strong><span>5 events</span></li>
+              <li data-emirate="rak"><strong>Ras Al Khaimah</strong><span>4 events</span></li>
+              <li data-emirate="fuj"><strong>Fujairah</strong><span>2 events</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- UAE cultural touchpoints -->
+      <section id="culture" class="section">
+        <div class="container">
+          <header class="section-head">
+            <p class="eyebrow" data-i18n="culture.eyebrow">UAE calendar aware</p>
+            <h2 data-i18n="culture.title">We plan around the moments that matter.</h2>
+            <p class="section-lede" data-i18n="culture.lede">A school event that lands on Ramadan or clashes with Eid is a school event done wrong. Our calendars are tuned to the UAE rhythm — and we'll always flag a conflict before you commit.</p>
+          </header>
+          <div class="culture-grid">
+            <article class="culture-card">
+              <div class="culture-month">Ramadan</div>
+              <h3 data-i18n="c1.t">Ramadan-ready events</h3>
+              <p data-i18n="c1.d">Earlier start times, Iftar catering, modest staging, no music during prayer hours. We adjust run-of-show so the day still feels celebratory without disrupting the holy month.</p>
+            </article>
+            <article class="culture-card">
+              <div class="culture-month">Eid Al Fitr · Eid Al Adha</div>
+              <h3 data-i18n="c2.t">Eid timing</h3>
+              <p data-i18n="c2.d">We never schedule on the first day of either Eid. Around Eid we shift events to give families breathing room and lean into Eid-themed decor where appropriate.</p>
+            </article>
+            <article class="culture-card">
+              <div class="culture-month">2 December</div>
+              <h3 data-i18n="c3.t">UAE National Day</h3>
+              <p data-i18n="c3.d">Flag ceremonies, heritage activities, and Emirati-themed annual days. Our National Day kits come with the right symbols done with respect — never as costume.</p>
+            </article>
+            <article class="culture-card">
+              <div class="culture-month">3 November</div>
+              <h3 data-i18n="c4.t">Flag Day</h3>
+              <p data-i18n="c4.d">Quick morning assemblies and campus-wide flag moments. We handle the coordination so the tribute feels genuine, not performative.</p>
+            </article>
+            <article class="culture-card">
+              <div class="culture-month">Islamic New Year · Prophet's Birthday</div>
+              <h3 data-i18n="c5.t">Hijri observances</h3>
+              <p data-i18n="c5.d">We adjust the school calendar so events don't compete with these reflective days. Optional school assemblies can be added if your leadership wants them.</p>
+            </article>
+            <article class="culture-card">
+              <div class="culture-month">1 December</div>
+              <h3 data-i18n="c6.t">Commemoration Day</h3>
+              <p data-i18n="c6.d">A day of quiet respect across the UAE. We pause all event comms and shift any activities scheduled for that day to a more appropriate moment.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Resource library -->
+      <section id="resources" class="section section-alt">
+        <div class="container">
+          <header class="section-head">
+            <p class="eyebrow" data-i18n="res.eyebrow">Free resources</p>
+            <h2 data-i18n="res.title">Steal our templates.</h2>
+            <p class="section-lede" data-i18n="res.lede">Three guides we give to every new school we work with. Free, no email gate.</p>
+          </header>
+          <div class="res-grid">
+            <article class="res-card">
+              <div class="res-icon">📋</div>
+              <h3 data-i18n="r1.t">Parent Communication Templates</h3>
+              <p data-i18n="r1.d">Email and WhatsApp scripts for invitations, RSVPs, reminders, and post-event thank-yous. Bilingual EN/AR.</p>
+              <button type="button" class="btn btn-secondary res-download" data-res-name="Parent Communication Templates">
+                <span data-i18n="r1.btn">Download PDF</span>
+              </button>
+            </article>
+            <article class="res-card">
+              <div class="res-icon">🎨</div>
+              <h3 data-i18n="r2.t">Annual Day Theme Ideas</h3>
+              <p data-i18n="r2.d">40+ tested themes from UAE schools with stage-deck references, color palettes, and decoration guides.</p>
+              <button type="button" class="btn btn-secondary res-download" data-res-name="Annual Day Theme Ideas">
+                <span data-i18n="r2.btn">Download PDF</span>
+              </button>
+            </article>
+            <article class="res-card">
+              <div class="res-icon">💰</div>
+              <h3 data-i18n="r3.t">School Event Budget Worksheet</h3>
+              <p data-i18n="r3.d">A simple spreadsheet with line items most UAE schools forget — permits, safeguarding, contingency. Editable.</p>
+              <button type="button" class="btn btn-secondary res-download" data-res-name="School Event Budget Worksheet">
+                <span data-i18n="r3.btn">Download PDF</span>
+              </button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Cost calculator -->
+      <section id="calculator" class="section">
+        <div class="container calc-grid">
+          <div>
+            <p class="eyebrow" data-i18n="calc.eyebrow">Quick estimate</p>
+            <h2 data-i18n="calc.title">What's an event likely to cost?</h2>
+            <p data-i18n="calc.lede">Drag the sliders. This is a rough guide, not a quote — every school is different. We'll give you a real number within a working day.</p>
+            <div class="calc-output">
+              <div class="calc-label" data-i18n="calc.estimate">Estimated range</div>
+              <div class="calc-price" id="calcPrice">AED 24,000 – 32,000</div>
+              <div class="calc-note" data-i18n="calc.note">Indicative only. Subject to venue, permits, and final scope.</div>
+            </div>
+            <a href="#contact" class="btn btn-primary" data-i18n="calc.cta">Get an exact quote</a>
+          </div>
+          <form class="calc-form" id="calcForm" onsubmit="return false;">
+            <label>
+              <span data-i18n="calc.audience">Audience size</span>
+              <input type="range" id="calcAudience" min="50" max="2000" step="50" value="300" />
+              <output for="calcAudience" id="calcAudienceOut">300 guests</output>
+            </label>
+            <label>
+              <span data-i18n="calc.duration">Event duration</span>
+              <input type="range" id="calcDuration" min="2" max="10" step="1" value="4" />
+              <output for="calcDuration" id="calcDurationOut">4 hours</output>
+            </label>
+            <fieldset class="calc-services">
+              <legend data-i18n="calc.services">Services needed</legend>
+              <label class="calc-check"><input type="checkbox" id="svc-av" checked /> <span data-i18n="calc.svcAv">Sound, lighting & staging</span></label>
+              <label class="calc-check"><input type="checkbox" id="svc-cater" checked /> <span data-i18n="calc.svcCat">Catering</span></label>
+              <label class="calc-check"><input type="checkbox" id="svc-photo" checked /> <span data-i18n="calc.svcPho">Photography & video</span></label>
+              <label class="calc-check"><input type="checkbox" id="svc-decor" /> <span data-i18n="calc.svcDec">Decor & theming</span></label>
+              <label class="calc-check"><input type="checkbox" id="svc-perform" /> <span data-i18n="calc.svcPerf">Performers / entertainers</span></label>
+              <label class="calc-check"><input type="checkbox" id="svc-transport" /> <span data-i18n="calc.svcTrn">Transport</span></label>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+
       <!-- Why us -->
       <section id="why" class="section section-alt">
         <div class="container why-grid">
@@ -576,6 +808,12 @@
         </div>
       </section>
     </main>
+
+    <!-- Floating CTA -->
+    <a href="#contact" class="floating-cta" id="floatingCta" aria-hidden="true">
+      <span class="floating-cta-dot" aria-hidden="true"></span>
+      <span class="floating-cta-label" data-i18n="float.cta">Plan your event</span>
+    </a>
 
     <footer class="site-footer">
       <div class="container footer-grid">
