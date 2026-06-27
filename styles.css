@@ -1512,3 +1512,71 @@ body[data-lang="ar"] .calc-form output { font-family: var(--font-ar-display); }
   .floating-cta-label { display: none; }
   .floating-cta { padding: 14px; }
 }
+/* Timeline */
+.timeline { max-width: 800px; margin: 0 auto; }
+.t-row {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: 24px;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--line);
+  align-items: flex-start;
+}
+.t-row:last-child { border-bottom: none; }
+.t-month {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--gold-deep);
+}
+.t-content h3 { margin: 0 0 4px; }
+.t-content p { margin: 0; color: var(--text-soft); font-size: 0.95rem; }
+
+/* Calculator */
+.calc-card { max-width: 720px; margin: 0 auto; }
+.calc-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+.calc-form label { display: flex; flex-direction: column; gap: 6px; font-size: 0.9rem; color: var(--text); }
+.calc-form .full { grid-column: 1 / -1; }
+.calc-form input[type="number"],
+.calc-form select {
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 1rem;
+  background: var(--bg);
+  color: var(--text);
+}
+.calc-form input[type="number"]:focus,
+.calc-form select:focus { outline: none; border-color: var(--gold); }
+.calc-extras {
+  grid-column: 1 / -1;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+}
+.calc-extras legend { font-weight: 600; padding: 0 8px; }
+.calc-extras label { flex-direction: row; align-items: center; gap: 8px; font-size: 0.95rem; }
+.calc-result {
+  grid-column: 1 / -1;
+  background: var(--bg-alt);
+  border: 1px solid var(--gold);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+}
+.calc-label { margin: 0 0 6px; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--text-soft); }
+.calc-amount { margin: 0; font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700; color: var(--gold-deep); }
+.calc-note { margin: 8px 0 0; font-size: 0.85rem; color: var(--text-soft); }
+
+@media (max-width: 600px) {
+  .calc-form { grid-template-columns: 1fr; }
+  .t-row { grid-template-columns: 1fr; gap: 8px; }
+}
